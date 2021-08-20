@@ -11,7 +11,7 @@ namespace GenericEntity
     {
         public DatabaseFacade DbFacade => Database;
 
-        public AppDbContext() : base() {} 
+        public AppDbContext() : base() {}
         public AppDbContext(DbContextOptions<TContext> options) : base(options) { }
 
         public Task<IDbContextTransaction> BeginTransactionAsync(CancellationToken cancellationToken)
