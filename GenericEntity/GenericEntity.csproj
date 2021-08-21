@@ -2,6 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <PackOnBuild>true</PackOnBuild>
+
+    <PackageId>GenericEntity</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+
+    <PackageLicenseUrl>https://github.com/ahmadtantowi/GenericEntity/blob/master/LICENCE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ahmadtantowi/GenericEntity</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ahmadtantowi/GenericEntity</RepositoryUrl>
+    <PackageReleaseNotes>https://github.com/ahmadtantowi/GenericEntity/releases</PackageReleaseNotes>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageTags>efcore, entity-framework-core</PackageTags>
+
+    <Title>GenericEntity</Title>
+    <Summary>A library to manage EF Core entity easier without adding DbSet of every single entity into database context</Summary>
+    <Description>A library to manage EF Core entity easier without adding DbSet of every single entity into database context </Description>
+
+    <Owners>ahmadtantowi</Owners>
+    <Authors>Ahmad Tantowi</Authors>
+    <Copyright>Copyright 2021</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
