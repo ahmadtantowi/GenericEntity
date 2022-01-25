@@ -9,14 +9,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GenericEntity.Sample.Migrations
 {
     [DbContext(typeof(SampleDbContext))]
-    [Migration("20210620105816_InitialDatabase")]
+    [Migration("20220125032631_InitialDatabase")]
     partial class InitialDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.7");
+                .HasAnnotation("ProductVersion", "5.0.13");
 
             modelBuilder.Entity("GenericEntity.Sample.Entities.Blog", b =>
                 {

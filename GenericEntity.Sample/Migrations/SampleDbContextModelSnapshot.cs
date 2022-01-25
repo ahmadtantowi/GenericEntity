@@ -14,7 +14,7 @@ namespace GenericEntity.Sample.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.7");
+                .HasAnnotation("ProductVersion", "5.0.13");
 
             modelBuilder.Entity("GenericEntity.Sample.Entities.Blog", b =>
                 {
