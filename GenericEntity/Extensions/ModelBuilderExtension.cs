@@ -23,7 +23,7 @@ namespace GenericEntity.Extensions
                 && x.BaseType.GenericTypeArguments.Length != 0 
                 && callerEntity.IsAssignableFrom(x.BaseType.GenericTypeArguments[0]));
 
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies().SelectMany(d => d.GetTypes());
+            var assemblies = callerEntity.Assembly.GetTypes();
             var entities = assemblies.Where(d => callerEntity.IsAssignableFrom(d) && !d.IsInterface);
             
             foreach (var entity in entities)
